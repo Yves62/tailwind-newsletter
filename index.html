@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Newsletter Tailwind</title>
+  </head>
+  <body>
+    <div class="container bg-black text-white mx-auto p-2">
+      <div class="text-center md:w-[50%] mx-auto">
+        <h1 class="text-4xl">Newsletter inscription</h1>
+        <p class="text-md mt-2">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+          labore qui reprehenderit, porro facere est!
+        </p>
+        <div
+          class="my-2 grid grid-cols-12 grid-rows-2 gap-2 md:grid-rows-1 md:gap-0"
+        >
+          <input
+            class="block h-[40px] col-span-12 md:col-span-9 p-1 w-[90%] mx-auto rounded"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <button
+            class="block h-[40px] mt-0 col-span-12 md:col-span-3 p-1 w-[90%] mt-2 bg-indigo-400 mx-auto rounded"
+          >
+            Subscribe
+          </button>
+        </div>
+        <p class="my-2 text-sm">
+          Lorem ipsum dolor sit amet.
+          <a href="#" class="underline">terms of use</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
